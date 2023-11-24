@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Page with Banner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* White background */
+            color: #333333; /* Dark text color */
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto; /* Center the container */
+            text-align: center;
+        }
+
+        #banner {
+            width: 100%;
+            max-height: 200px; /* Adjust the maximum height as needed */
+            object-fit: cover; /* Maintain aspect ratio of the image */
+        }
+
+        #content {
+            padding: 20px;
+            background-color: #3498db; /* Blue background */
+            color: #ffffff; /* White text color */
+            border-radius: 8px; /* Rounded corners for the content */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="banner" src="banner-image.png" alt="Banner Image">
+        <div id="content">
+            <h1>Welcome</h1>
+            <p>Sirius Cybernetics is a fictional corporation in the Hitchhiker's guide to the galaxy series of books by Douglas Adams.</p>
+        </div>
+    </div>
+</body>
+</html>
